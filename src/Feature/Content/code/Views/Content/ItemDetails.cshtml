@@ -1,0 +1,15 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+
+
+<h1>     @Html.Sitecore().Field("Title") </h1>
+<div id="Translation">
+    @* <img src="images/product.png" class="img-responsive">*@
+    @Html.Sitecore().Field("Thumbnail", new { mw = "100%", mh = 300, @class = "img-responsive" })
+
+    @Html.Sitecore().Field("Description")
+    @Html.Sitecore().Field("Link",new { @class= "btn btn-primary" })
+
+    @*<a class="btn btn-primary" href="#">More Details</a>*@
+    <hr>
+</div>

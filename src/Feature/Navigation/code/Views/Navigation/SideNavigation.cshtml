@@ -1,0 +1,100 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+
+@helper BuildChildrenLinks()
+{
+
+    var datasourceId = RenderingContext.CurrentOrNull.Rendering.DataSource;
+    var ds = Sitecore.Context.Database.GetItem(datasourceId);
+
+    <ul class="nav navbar-nav">
+        
+        @foreach (Sitecore.Data.Items.Item item in ds.Children)
+        {
+
+            Sitecore.Data.Fields.LinkField linkField = item.Fields["Destination"];
+            var itemUrl = linkField.TargetItem != null ? Sitecore.Links.LinkManager.GetItemUrl(linkField.TargetItem) : string.Empty;
+            var isActive = linkField.TargetItem != null ? (linkField.TargetItem.ID == Sitecore.Context.Item.ID) : false;
+          
+            
+            <li class="vert @(isActive ? "active":string.Empty)">
+                <a href="@itemUrl">
+                    @item.Fields["Title"].Value 
+                </a>
+                <ul class="nav navbar-nav">
+                    @if (item.HasChildren)
+                    {
+                        foreach (Sitecore.Data.Items.Item inneritem in item.Children)
+                        {
+                            //var innerisActive = inneritem.ID == Sitecore.Context.Item.ID ;
+                            Sitecore.Data.Fields.LinkField innerlinkField = inneritem.Fields["Destination"];
+                            var inneritemUrl = innerlinkField.TargetItem != null ? Sitecore.Links.LinkManager.GetItemUrl(innerlinkField.TargetItem) : string.Empty;
+                            var innerisActive = innerlinkField.TargetItem != null ? (innerlinkField.TargetItem.ID == Sitecore.Context.Item.ID) : false;
+
+                            <li class="subvert @(innerisActive ? "active":string.Empty)">
+                                <a href="@inneritemUrl">
+                                    @inneritem.Fields["Title"].Value
+                                 
+                                </a>
+                            </li>
+                        }
+
+                    }
+
+                </ul>
+            </li>
+
+        }
+        @*<li class="vert"><a href="Home.html">Home</a></li>
+            <li class="vert">
+                <a href="Products.html">Products</a>
+                <ul class="nav navbar-nav">
+                    <li class="active subvert"><a href="Product1.html">Product1</a></li>
+                    <li class="subvert"><a href="Product1.html">Product2</a></li>
+                </ul>
+            </li>
+            <li class="vert">
+                <a href="Services.html">Services</a>
+                <ul class="nav navbar-nav">
+                    <li class="subvert"><a href="service1.html">Service1</a></li>
+                    <li class="subvert"><a href="service1.html">Service2</a></li>
+                </ul>
+            </li>*@
+    </ul>
+
+
+
+    @*@Html.Sitecore().Field("Title", inner)
+        if (inner.HasChildren)
+        {
+            foreach (Sitecore.Data.Items.Item item in inner.GetChildren())
+            {
+                @Html.Sitecore().Field("Title", item)
+                if (item.HasChildren)
+                {
+                    BuildChildrenLinks(item);
+                }
+
+            }
+        }*@
+}
+
+
+
+
+
+<div class="sidebar-nav">
+    <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-collapse collapse sidebar-navbar-collapse">
+            @BuildChildrenLinks()
+
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+@Html.Sitecore().Rendering("/sitecore/layout/Renderings/HaifasTest/Add Callout")
+
+@*<div class="sidebar-nav">
+
+        <img src="images/ads.png" class="img-responsive">
+    </div>*@

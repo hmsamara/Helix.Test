@@ -1,0 +1,24 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+
+
+@helper BuildLinks()
+{
+    var datasourceId = RenderingContext.CurrentOrNull.Rendering.DataSource;
+    var ds = Sitecore.Context.Database.GetItem(datasourceId);
+
+
+
+    Sitecore.Data.Fields.LinkField linkField = ds.Fields["Destination"];
+    var itemUrl = linkField.TargetItem != null ? Sitecore.Links.LinkManager.GetItemUrl(linkField.TargetItem) : string.Empty;
+
+    <a href="@itemUrl">
+          @Html.Sitecore().Field("Image", new { @class = "img-responsive" })
+    </a>
+
+}
+<div class="sidebar-nav">
+
+    @BuildLinks()
+</div>
+

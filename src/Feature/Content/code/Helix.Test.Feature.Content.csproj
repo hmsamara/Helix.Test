@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4A3B3E62-CDC3-469B-9844-DA8286235966}</ProjectGuid>
+    <ProjectGuid>{5F046D53-2052-4794-9E97-B779D7AE7525}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Helix.Test.Feature.Navigation</RootNamespace>
-    <AssemblyName>Helix.Test.Feature.Navigation</AssemblyName>
+    <RootNamespace>Helix.Test.Feature.Content</RootNamespace>
+    <AssemblyName>Helix.Test.Feature.Content</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -97,9 +97,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Navigation\HomeNavigation.cshtml" />
-    <Content Include="Views\Navigation\SideNavigation.cshtml" />
+    <Content Include="Views\Content\Footer.cshtml" />
+    <Content Include="Views\Content\Header.cshtml" />
+    <Content Include="Views\Content\PageDetails.cshtml" />
+    <Content Include="Views\Content\TwoColumn.cshtml" />
+    <Content Include="Views\Content\ItemDetails.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\Publish Profile.pubxml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -133,9 +137,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>1129</DevelopmentServerPort>
+          <DevelopmentServerPort>13417</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:54641/</IISUrl>
+          <IISUrl>http://localhost:13417/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
