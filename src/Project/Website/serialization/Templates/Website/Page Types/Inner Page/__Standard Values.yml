@@ -1,0 +1,51 @@
+﻿---
+ID: "8cf9bf45-5850-4eef-b6bd-44d571d316aa"
+Parent: "fb81ffe5-74f4-4cec-bdeb-c1d34bd3c610"
+Template: "fb81ffe5-74f4-4cec-bdeb-c1d34bd3c610"
+Path: /sitecore/templates/Project/Website/Page Types/Inner Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CEE65B23-9D98-424C-BEBA-510EE7A769D6}">
+        <r
+          id="{2B5F8F22-F2E8-4CD4-9C8A-33600E1CCBA1}"
+          ph="top"
+          uid="{3F9FE00D-60CE-4261-8FBD-7B1434F9C6A2}" />
+        <r
+          id="{4DFB758F-AB5F-4F2B-AB32-58B5DE674D54}"
+          ph="top"
+          uid="{AB53C8B6-7872-41EA-8780-C983665D993A}" />
+        <r
+          ds=""
+          id="{99366D65-562E-4658-8FED-5045449B5913}"
+          par=""
+          ph="top"
+          uid="{D39EBECC-0CBD-4803-B99F-089CC8AA9EE6}" />
+        <r
+          id="{6CFE9DFC-893E-4952-8A5B-3E4F22CD6FE0}"
+          ph="left"
+          uid="{68BDB8FD-ECAF-46FE-8791-52B1DF5BEC67}" />
+        <r
+          id="{02A44712-0815-41C4-AE76-787399A2C90D}"
+          ph="right"
+          uid="{4C2C2B43-5C7F-463C-9D02-3C905B4D2DA9}" />
+        <r
+          id="{28AAC417-31EA-4503-A6D3-2D819BDAA785}"
+          ph="footer"
+          uid="{F90304F7-D380-4816-A7FD-71C8A8B575E7}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181124T202619Z

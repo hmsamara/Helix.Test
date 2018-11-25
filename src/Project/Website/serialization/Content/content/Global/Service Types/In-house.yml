@@ -1,0 +1,17 @@
+﻿---
+ID: "1bef51ca-2009-494d-ac44-bd4a13f90fc3"
+Parent: "153a732f-e950-4a29-b928-8a9e44d60670"
+Template: "f5523506-b08e-4d39-b77f-50970e63901c"
+Path: "/sitecore/content/Global/Service Types/In-house"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "074a02ae-46a3-4c1b-9937-60cf414b228f"
+      Hint: Name
+      Value: "In-house"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181122T094931Z

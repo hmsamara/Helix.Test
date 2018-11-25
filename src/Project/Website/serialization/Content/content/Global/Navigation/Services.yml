@@ -1,0 +1,25 @@
+﻿---
+ID: "d6a7648c-3c6a-42ae-a49b-a9727c9e8f74"
+Parent: "8ac2ea96-8c20-45cb-a14e-366f82f2eac7"
+Template: "dd6b3a58-7d6f-43d8-89eb-b128459539a5"
+Path: /sitecore/content/Global/Navigation/Services
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181122T095112Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9205c2ad-e007-4852-a45d-366ce6d33d1e"
+      Hint: Destination
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{577CC1E7-1A6D-4FC6-9D8E-CAD74F981A45}" />
+    - ID: "dc1c0e8e-4382-421f-a750-3cca76ade5f5"
+      Hint: Title
+      Value: Services

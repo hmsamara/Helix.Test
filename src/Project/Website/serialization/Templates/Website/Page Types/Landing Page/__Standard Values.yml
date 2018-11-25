@@ -1,0 +1,83 @@
+﻿---
+ID: "f6092700-cc9e-4fcb-8065-7d80be9e04f8"
+Parent: "a2d8badc-31fb-4edf-b549-630eeb95cd64"
+Template: "a2d8badc-31fb-4edf-b549-630eeb95cd64"
+Path: /sitecore/templates/Project/Website/Page Types/Landing Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{FB81FFE5-74F4-4CEC-BDEB-C1D34BD3C610}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{CEE65B23-9D98-424C-BEBA-510EE7A769D6}">
+        <r
+          ds=""
+          id="{2B5F8F22-F2E8-4CD4-9C8A-33600E1CCBA1}"
+          par=""
+          ph="top"
+          uid="{45CF24E2-A40F-4893-807B-0AB0195B8AAA}" />
+        <r
+          id="{4DFB758F-AB5F-4F2B-AB32-58B5DE674D54}"
+          ph="top"
+          uid="{AB53C8B6-7872-41EA-8780-C983665D993A}" />
+        <r
+          ds=""
+          id="{99366D65-562E-4658-8FED-5045449B5913}"
+          par=""
+          ph="top"
+          uid="{D39EBECC-0CBD-4803-B99F-089CC8AA9EE6}" />
+        <r
+          id="{C3555FA0-0E14-4B5B-BF07-E770887847C3}"
+          ph="content"
+          uid="{1D5DDFA1-91DB-4171-81FD-1E04639A1ED6}" />
+        <r
+          ds=""
+          id="{CFBBE3BB-F282-4AFE-BFB5-5DB7668E6DF5}"
+          par=""
+          ph="right"
+          uid="{A7975571-0442-4010-B8FC-7673EAB2F777}" />
+        <r
+          id="{6CFE9DFC-893E-4952-8A5B-3E4F22CD6FE0}"
+          ph="left"
+          uid="{5E7A720C-3158-4C36-94D9-FDC5336CAF89}" />
+        <r
+          ds="{B406C534-A570-493D-94D8-5A00FDFE3A0F}"
+          id="{1A1DBAEB-B8E4-4245-AD32-0147B2DDF612}"
+          par=""
+          ph="left"
+          uid="{486AAD17-2AC5-4525-85BD-011E5BDB9122}" />
+        <r
+          id="{28AAC417-31EA-4503-A6D3-2D819BDAA785}"
+          ph="footer"
+          uid="{F90304F7-D380-4816-A7FD-71C8A8B575E7}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{5E7A720C-3158-4C36-94D9-FDC5336CAF89}"
+              s:ds="{8AC2EA96-8C20-45CB-A14E-366F82F2EAC7}"
+              s:par="" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181122T130916Z

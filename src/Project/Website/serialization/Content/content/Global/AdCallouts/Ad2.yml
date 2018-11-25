@@ -1,0 +1,26 @@
+﻿---
+ID: "657dd9cf-fb95-4584-adf2-de71b65a85ef"
+Parent: "b406c534-a570-493d-94d8-5a00fdfe3a0f"
+Template: "16431206-681d-4b29-95a5-1db16fc00c1d"
+Path: /sitecore/content/Global/AdCallouts/Ad2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e489e87-b893-44e0-ab3e-640106083b0b"
+      Hint: Image
+      Value: |
+        <image mediaid="{3BAA27D9-E769-43D2-9BA3-1FCC63DC8A36}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181124T214713Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "db967b85-6769-4df8-be09-6b3c18667d4c"
+      Hint: Destination
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{D344340D-8183-4FB3-AE55-464843673F43}" />
