@@ -106,6 +106,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Project\Helix.Website.config" />
+    <Content Include="App_Config\Include\Project\Helix.Website.Serialization.config" />
+    <Content Include="App_Config\Environment\Project\Helix.Test.Dev.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Views\Website\Layouts\Main.cshtml" />
     <None Include="Web.config" />

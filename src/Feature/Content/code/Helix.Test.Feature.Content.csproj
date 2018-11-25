@@ -102,6 +102,7 @@
     <Content Include="Views\Content\PageDetails.cshtml" />
     <Content Include="Views\Content\TwoColumn.cshtml" />
     <Content Include="Views\Content\ItemDetails.cshtml" />
+    <Content Include="App_Config\Include\Feature\Feature.Content.Serialization.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\Publish Profile.pubxml" />
     <None Include="Web.config" />
