@@ -1,0 +1,54 @@
+﻿---
+ID: "3aecc48f-8020-4f6e-bbe6-29b4a64a6cd6"
+Parent: "842e4502-dfbf-494b-a0c6-ab341626c56e"
+Template: "fb81ffe5-74f4-4cec-bdeb-c1d34bd3c610"
+Path: /sitecore/content/Home/Services/Service1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <p
+              uid="{578234DF-9FEF-422A-8FD0-6DB7544E6431}"
+              p:before="*"
+              s:key="main"
+              s:md="{5A4F82E5-1141-4025-8214-F0C111CA3702}" />
+            <r
+              uid="{500A5AE5-5CA2-4478-BE2D-498742EFECE2}"
+              p:after="p[@uid='{578234DF-9FEF-422A-8FD0-6DB7544E6431}']"
+              s:id="{C3555FA0-0E14-4B5B-BF07-E770887847C3}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "0dcc5dab-aa58-4ba8-bf0b-cc948c7616c8"
+      Hint: Thumbnail
+      Value: |
+        <image mediaid="{84FBFC8B-87D6-43D4-8C6D-369D2FD7800A}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181126T085140Z
+    - ID: "35803177-459d-4a12-a99c-d588a21b0053"
+      Hint: Link
+      Value: |
+        <link text="More Details" anchor="" linktype="internal" class="" title=""  querystring="" id="{3AECC48F-8020-4F6E-BBE6-29B4A64A6CD6}" />
+    - ID: "781e9acf-2f70-493c-bf12-55c66ea84181"
+      Hint: Title
+      Value: Service1
+    - ID: "de1f2951-6d67-4a37-a2ba-38e0543158ff"
+      Hint: Description
+      Value: |
+        <h3>The standard Lorem Ipsum passage, used since the 1500s</h3><p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p><h3>Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC</h3><p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+        
+    - ID: "fdee4d8e-dce5-4e83-9219-dc5657e4c88e"
+      Hint: Banner
+      Value: |
+        <image mediaid="{2A716BEB-144D-47C9-8CF5-55CE38053FE5}" />
