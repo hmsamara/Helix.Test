@@ -12,6 +12,21 @@ Languages:
     - ID: "03083b23-88ce-4bf7-bc9c-ea76eab68199"
       Hint: Copyrights
       Value: <p>Copyright &copy; 2016 by Tanasuk</p>
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0B42A9C1-1F11-42ED-BDF1-BCFB456138F3}"
+              p:before="*"
+              s:id="{2B5F8F22-F2E8-4CD4-9C8A-33600E1CCBA1}"
+              s:ph="top" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20181122T221447Z
@@ -24,7 +39,7 @@ Languages:
     - ID: "9e6838dc-f900-43a9-8851-95d94081df0e"
       Hint: Logo
       Value: |
-        <image mediaid="{EDBE363C-9F4F-4C18-BF1F-D45461D3F351}" />
+        <image mediaid="{EDBE363C-9F4F-4C18-BF1F-D45461D3F351}" ></image>
     - ID: "de1f2951-6d67-4a37-a2ba-38e0543158ff"
       Hint: Description
       Value: |

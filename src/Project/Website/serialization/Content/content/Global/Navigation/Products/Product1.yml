@@ -1,0 +1,25 @@
+﻿---
+ID: "6056d4fb-3c4f-4491-a847-ae66d84cd85a"
+Parent: "0a1522ae-3828-49e1-8744-0f242c61d085"
+Template: "dd6b3a58-7d6f-43d8-89eb-b128459539a5"
+Path: /sitecore/content/Global/Navigation/Products/Product1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181125T132455Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "9205c2ad-e007-4852-a45d-366ce6d33d1e"
+      Hint: Destination
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{2522E465-8C50-4E5F-9301-3938202B45D0}" />
+    - ID: "dc1c0e8e-4382-421f-a750-3cca76ade5f5"
+      Hint: Title
+      Value: Product1
